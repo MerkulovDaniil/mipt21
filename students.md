@@ -8,7 +8,7 @@ nav_order: 4
 | Быков Николай        | [🐍 Code](){: .btn } |
 | Ганбаров Эльдар      | [🐍 Code](){: .btn } |
 | Копылов Владислав    | [🐍 Code](){: .btn } |
-| Михалев Антон        | [🐍 Code](){: .btn } |
+| Михалев Антон        | [🐍 Code](https://colab.research.google.com/drive/1tVh2eX1GuTMg_uCX7ObPXFbOROD9Nf20?authuser=1){: .btn } |
 | Павлычев Николай     | [🐍 Code](){: .btn } |
 | Стафцев Егор         | [🐍 Code](){: .btn } |
 | Тесемников Александр | [🐍 Code](){: .btn } |
