@@ -9,7 +9,7 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 
 **Deadline:** 09 October, 15:59 (Moscow time).
 
-# Matrix calculus
+## Matrix calculus
 
 1. Find $$\nabla f(x)$$, if $$f(x) = \dfrac{1}{2} \|Ax - b\|_2^2 , x \in \mathbb{R}^p$$.
 1. Find $$\nabla f(X)$$, if $$f(X) = \langle x, x\rangle^{\langle x, x\rangle}, x \in \mathbb{R}^n\setminus\{0\}$$.
@@ -63,7 +63,7 @@ print(f'Analytical and autograd implementations of the hessians are close: {np.a
 
 
 
-# Convex sets
+## Convex sets
 
 1. Prove that the set of square symmetric positive definite matrices is convex.
 1. Show, that $$ \mathbf{conv}\{xx^\top: x \in \mathbb{R}^n, \|x\| = 1\} = \{A \in \mathbb{S}^n_+: \text{tr}(A) = 1\}$$.
@@ -78,7 +78,7 @@ Hint: For $$0 \leq \theta \leq 1$$ it is valid, that $$a^\theta b^{1 - \theta} \
 	1. $$\mathbb{E} \vert x^{2}\vert \ge \alpha $$
 	1. $$\mathbb{V}x \ge \alpha$$
 
-# Convex functions
+## Convex functions
 
 1. Prove, that function $$f(X) = \mathbf{tr}(X^{-1}), X \in S^n_{++}$$ is convex, while $$g(X) = (\det X)^{1/n}, X \in S^n_{++}$$ is concave.
 1. Kullback–Leibler divergence between $$p,q \in \mathbb{R}^n_{++}$$ is:
