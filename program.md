@@ -1,6 +1,6 @@
 ---
 title: 🚀 Программа
-nav_order: 2
+nav_order: 3
 ---
 
 Вводное занятие ([🗒️ presentation](), [📝 notes](url), [📽 video](url))
