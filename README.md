@@ -13,5 +13,3 @@ nav_order: 1
 * [🧠 Слушатели](/students)
 * [📧 Чат](https://t.me/optmipt22)
 * [👨‍💻 Github](https://github.com/MerkulovDaniil/mipt21)
-
-Сентябрь, 2021 г.
