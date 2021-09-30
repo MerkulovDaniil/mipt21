@@ -7,7 +7,7 @@ nav_order: 3
 
 The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](<https://typora.io/>) or `print to pdf` option from the colab\jupyter notebook.
 
-**Deadline:** 09 October, 15:59 (Moscow time).
+**Deadline:** 16 October, 15:59 (Moscow time).
 
 ## Matrix calculus
 
@@ -105,3 +105,42 @@ Hint: For $$0 \leq \theta \leq 1$$ it is valid, that $$a^\theta b^{1 - \theta} \
     f(x) = \sum\limits_{i=1}^k x_{\lfloor i \rfloor},
     $$
     where $$1 \leq k \leq n$$, while the symbol $$x_{\lfloor i \rfloor}$$ stands for the $$i$$-th component of sorted ($$x_{\lfloor 1 \rfloor}$$ - maximum component of $$x$$ and $$x_{\lfloor n \rfloor}$$ - minimum component of $$x$$) vector of $$x$$. Show, that $$f$$ is a convex function.
+
+    
+## Conjugate sets
+
+1. Let $$\mathbb{A}_n$$ be the set of all $$n$$ dimensional antisymmetric matrices. Show that $$\left( \mathbb{A}_n\right)^* = \mathbb{S}_n$$. 
+1. Find the conjugate set to the ellipsoid: 
+    
+    $$
+     S = \left\{ x \in \mathbb{R}^n \mid \sum\limits_{i = 1}^n a_i^2 x_i^2 \le \varepsilon^2 \right\}
+    $$
+1. Find the sets $$S^{*}, S^{**}, S^{***}$$, if 
+    
+    $$
+    S = \{ x \in \mathbb{R}^2 \mid x_1 + x_2 \ge -1, \;\; 2x_1 + x_2 \ge 1, \;\; -2x_1 + x_2 \ge 2\}
+    $$
+1. Find the conjugate cone for the exponential cone:
+    
+    $$
+    K = \{(x, y, z) \mid y > 0, y e^{x/y} \leq z\}
+    $$
+1. Prove, that $$B_p$$ and $$B_{p_*}$$ are inter-conjugate, i.e. $$(B_p)^* = B_{p_*}, (B_{p_*})^* = B_p$$, where $$B_p$$ is the unit ball (w.r.t. $$p$$ - norm) and $$p, p_*$$ are conjugated, i.e. $$p^{-1} + p^{-1}_* = 1$$. You can assume, that $$p_* = \infty$$ if $$p = 1$$ and vice versa.
+
+## Conjugate function
+
+1. Find $$f^*(y)$$, if $$f(x) = -\dfrac{1}{x}, \;\; x\in \mathbb{R}_{++}$$
+1. Prove, that if $$f(x_1, x_2) = g_1(x_1) + g_2(x_2)$$, then $$f^*(y_1, y_2) = g_1^*(y_1) + g_2^*(y_2)$$
+1. Find $$f^*(y)$$, if $$f(x) = \log \left( \sum\limits_{i=1}^n e^{x_i} \right)$$
+1. Prove, that if $$f(x) = \alpha g(x)$$, then $$f^*(y) = \alpha g^*(y/\alpha)$$
+1. Find $$f^*(Y)$$, if $$f(X) = - \ln \det X, X \in \mathbb{S}^n_{++}$$
+1. Prove, that if $$f(x) = \inf\limits_{u+v = x} (g(u) + h(v))$$, then $$f^*(y) = g^*(y) + h^*(y)$$
+
+## Subgradient and subdifferential
+
+1. Prove, that $$x_0$$ - is the minimum point of a convex function $$f(x)$$ if and only if $$0 \in \partial f(x_0)$$
+1. Find $$\partial f(x)$$, if $$f(x) = \text{ReLU}(x) = \max \{0, x\}$$
+1. Find $$\partial f(x)$$, if $$f(x) = \|x\|_p$$ при $$p = 1,2, \infty$$
+1. Find $$\partial f(x)$$, if $$f(x) = \|Ax - b\|_1$$
+1. Find $$\partial f(x)$$, if $$f(x) = e^{\|x\|}$$
+1. Find $$\partial f(x)$$, if $$f(x) = \max\limits_i\left\{ \langle a_i, x\rangle + b_i \right\}, a_i \in \mathbb{R}^n, b_i \in \mathbb{R}, i = 1, \ldots, m$$
