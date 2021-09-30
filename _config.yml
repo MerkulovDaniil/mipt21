@@ -2,6 +2,7 @@ title: "Введение в практические методы оптимиз
 baseurl: ""
 url: "https://sber219.fmin.xyz"
 logo: "/images/logo.svg"
+search_enabled: false
 
 # Enable or disable heading anchors
 heading_anchors: true
