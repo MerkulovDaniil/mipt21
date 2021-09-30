@@ -61,8 +61,6 @@ print(f'Analytical and autograd implementations of the hessians are close: {np.a
 
 ```
 
-
-
 ## Convex sets
 
 1. Prove that the set of square symmetric positive definite matrices is convex.
@@ -73,10 +71,10 @@ Hint: For $$0 \leq \theta \leq 1$$ it is valid, that $$a^\theta b^{1 - \theta} \
 1. Let $$x \in \mathbb{R}$$ is a random variable with a given probability distribution of $$\mathbb{P}(x = a_i) = p_i$$, where $$i = 1, \ldots, n$$, and $$a_1 < \ldots < a_n$$. It is said that the probability vector of outcomes of $$p \in \mathbb{R}^n$$ belongs to the probabilistic simplex, i.e. $$P = \{ p \mid \mathbf{1}^Tp = 1, p \succeq 0 \} = \{ p \mid p_1 + \ldots + p_n = 1, p_i \ge 0 \}$$. 
     Determine if the following sets of $$p$$ are convex:
     
-	1. $$\mathbb{P}(x > \alpha) \le \beta$$
-	1. $$\mathbb{E} \vert x^{201}\vert \le \alpha \mathbb{E}\vert x \vert$$
-	1. $$\mathbb{E} \vert x^{2}\vert \ge \alpha $$
-	1. $$\mathbb{V}x \ge \alpha$$
+	1. \$$\mathbb{P}(x > \alpha) \le \beta$$
+	1. \$$\mathbb{E} \vert x^{201}\vert \le \alpha \mathbb{E}\vert x \vert$$
+	1. \$$\mathbb{E} \vert x^{2}\vert \ge \alpha $$
+	1. \$$\mathbb{V}x \ge \alpha$$
 
 ## Convex functions
 
@@ -94,12 +92,12 @@ Hint: For $$0 \leq \theta \leq 1$$ it is valid, that $$a^\theta b^{1 - \theta} \
 	D(p,q) = f(p) - f(q) - \nabla f(q)^T(p-q), \;\;\;\; f(p) = \sum\limits_{i=1}^n p_i \log p_i
 	$$
 1. Let $$x$$ be a real variable with the values $$a_1 < a_2 < \ldots < a_n$$ with probabilities $$\mathbb{P}(x = a_i) = p_i$$. Derive the convexity or concavity of the following functions from $$p$$ on the set of $$\left\{p \mid \sum\limits_{i=1}^n p_i = 1, p_i \ge 0 \right\}$$  
-	* $$\mathbb{E}x$$
-	* $$\mathbb{P}\{x \ge \alpha\}$$
-	* $$\mathbb{P}\{\alpha \le x \le \beta\}$$
-	* $$\sum\limits_{i=1}^n p_i \log p_i$$
-	* $$\mathbb{V}x = \mathbb{E}(x - \mathbb{E}x)^2$$
-	* $$\mathbf{quartile}(x) = {\operatorname{inf}}\left\{ \beta \mid \mathbb{P}\{x \le \beta\} \ge 0.25 \right\}$$ 
+	* \$$\mathbb{E}x$$
+	* \$$\mathbb{P}\{x \ge \alpha\}$$
+	* \$$\mathbb{P}\{\alpha \le x \le \beta\}$$
+	* \$$\sum\limits_{i=1}^n p_i \log p_i$$
+	* \$$\mathbb{V}x = \mathbb{E}(x - \mathbb{E}x)^2$$
+	* \$$\mathbf{quartile}(x) = {\operatorname{inf}}\left\{ \beta \mid \mathbb{P}\{x \le \beta\} \ge 0.25 \right\}$$ 
 1.  Is the function returning the arithmetic mean of vector coordinates is a convex one: : $$a(x) = \frac{1}{n}\sum\limits_{i=1}^n x_i$$, what about geometric mean: $$g(x) = \prod\limits_{i=1}^n \left(x_i \right)^{1/n}$$?
 1. Is $$f(x) = -x \ln x - (1-x) \ln (1-x)$$ convex?
 1. Let $$f: \mathbb{R}^n \to \mathbb{R}$$ be the following function:
