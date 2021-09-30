@@ -1,3 +1,8 @@
+---
+title: 🚀 Программа
+nav_order: 2
+---
+
 |              Stage | Direct Products | ATP Yields |
 | -----------------: | --------------: | ---------: |
 |         Glycolysis |          2 ATP              ||
