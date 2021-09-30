@@ -3,7 +3,7 @@ title: 🚀 Программа
 nav_order: 3
 ---
 
-Вводное занятие ([🗒️ presentation](), [📝 notes](url), [📽 video](url))
+Вводное занятие (📄 presentation](), [📝 notes](url), 📼 video](url))
 
 ## Занятие 1 ([🗒️ presentation](), [📝 notes](url), [📽 video](url))
 
