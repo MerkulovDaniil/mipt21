@@ -5,20 +5,20 @@ nav_order: 3
 
 ## Занятие 1.
 
-[📄 Материалы](/presentations/1.pdf). [📝 Записи](/notes/1.pdf). [📼 Видео]().
+[📄 Материалы](/presentations/1.pdf). [📝 Записи](/notes/1.pdf). [📼 Видео](https://youtu.be/5agEaBfyi0c).
 
 Вводное занятие. Обзор практических задач оптимизации.
 
 
 ## Занятие 2.
 
-[📄 Материалы](/presentations/2.pdf). [📝 Записи](/notes/2.pdf). [📼 Видео]().
+[📄 Материалы](/presentations/2.pdf). [📝 Записи](/notes/2.pdf). [📼 Видео](https://youtu.be/_CaZYpzRcPg).
 
 Матрично-векторное дифференцирование.
 
 ## Занятие 3.
 
-[📄 Материалы](/presentations/3.pdf). [📝 Записи](/notes/3.pdf). [📼 Видео]().
+[📄 Материалы](/presentations/3.pdf). [📝 Записи](/notes/3.pdf). [📼 Видео](https://youtu.be/qio9PZyIFmA).
 
 Выпуклость. Выпуклые множества. Выпуклые функции.
 
