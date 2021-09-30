@@ -24,7 +24,7 @@ nav_order: 3
 
 ## Занятие 4.
 
-[📄 Материалы](/presentations/4.pdf). [📝 Записи](/notes/4.pdf). [📼 Видео]().
+[📄 Материалы](/presentations/4.pdf). [📝 Записи](/notes/4.pdf). [📼 Видео](https://youtu.be/dxdBkaGxt6w).
 
 Сопряженные множества.
 
