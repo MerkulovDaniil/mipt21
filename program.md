@@ -11,7 +11,7 @@ nav_order: 3
 | Знакомство с современными практическими инструментами для оптимизации и анализа данных   | Практика: работа с библиотекой CVXPY [🐍 code](https://colab.research.google.com/github/MerkulovDaniil/sber219/blob/main/notebooks/1_2.ipynb){: .btn}      |
 | Сравнение библиотек и фреймворков для машинного обучения.         | Практика: сравнение SciPy и CVXPY в задаче условной оптимизации. [🐍 code](https://colab.research.google.com/github/MerkulovDaniil/sber219/blob/main/notebooks/1_3.ipynb){: .btn}         |
 
-## Занятие 2. [📄 presentation](/presentations/2.pdf). [📝 notes](), [📼 video]().
+## Занятие 2. [📄 presentation](/presentations/2.pdf). [📝 notes](). [📼 video]().
 
 | Матрично - векторное дифференцирование 1    | Практика: матрично - векторное дифференцирование 1 [🐍 code](https://colab.research.google.com/github/MerkulovDaniil/sber219/blob/main/notebooks/2_1.ipynb){: .btn}      |
 | Матрично - векторное дифференцирование 2    | Практика: матрично - векторное дифференцирование 2 [🐍 code](https://colab.research.google.com/github/MerkulovDaniil/sber219/blob/main/notebooks/2_2.ipynb){: .btn}      |
