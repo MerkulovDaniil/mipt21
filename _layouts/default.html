@@ -165,7 +165,6 @@ layout: table_wrappers
           {%- include footer_custom.html -%}
         {% endcapture %}
         {% if footer_custom != "" or site.last_edit_timestamp or site.gh_edit_link %}
-          <hr>
           <footer>
             {% if site.back_to_top %}
               <p><a href="#top" id="back-to-top">{{ site.back_to_top_text }}</a></p>
@@ -188,18 +187,5 @@ layout: table_wrappers
       <div class="search-overlay"></div>
     {% endif %}
   </div>
-  <!-- <script>
-  const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-  jtd.addEvent(toggleDarkMode, 'click', function(){
-    if (jtd.getTheme() === 'dark') {
-      jtd.setTheme('light');
-      toggleDarkMode.textContent = '🌙';
-    } else {
-      jtd.setTheme('dark');
-      toggleDarkMode.textContent = '☀';
-    }
-  });
-  </script> -->
 </body>
 </html>
