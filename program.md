@@ -42,7 +42,7 @@ nav_order: 2
 
 ## Занятие 7.
 
-[📄 Материалы](/presentations/7.pdf). [📝 Записи](/notes/7.pdf). [📼 Видео]().
+[📄 Материалы](/presentations/7.pdf). [📝 Записи](/notes/7.pdf). [📼 Видео](https://youtu.be/jMSoc_A-bes).
 
 Условия оптимальности. Теорема Каруша - Куна - Таккера.
 
