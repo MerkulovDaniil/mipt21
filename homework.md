@@ -15,11 +15,14 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 1. Find $$\nabla f(X)$$, if $$f(X) = \langle x, x\rangle^{\langle x, x\rangle}, x \in \mathbb{R}^n\setminus\{0\}$$.
 1. Calculate the Frobenious norm derivative: $$\dfrac{\partial}{\partial X}\|X\|_F^2$$
 1. Calculate the first and the second derivative of the following function $$f : S \to \mathbb{R}$$
+
 	$$
 	f(t) = \text{det}(A − tI_n),
 	$$
+	
 	where $$A \in \mathbb{R}^{n \times n}, S := \{t \in \mathbb{R} : \text{det}(A − tI_n) \neq 0\}	$$.
 1. Implement analytical expression of the gradient and hessian of the following functions:
+
 	a. $$f(x) = \dfrac{1}{2}x^TAx + b^Tx + c$$
 	b. $$f(x) = \ln \left( 1 + \exp\langle a,x\rangle\right)$$
 	c. $$f(x) = \dfrac{1}{2} \|Ax - b\|^2_2$$
