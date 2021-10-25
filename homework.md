@@ -327,7 +327,7 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 	-\sum_{i=1}^m \log (b_i - a_i^\top x) \to \min\limits_{x \in \mathbb{R}^{n} }
 	$$
 
-	with domain $$\{x | a^\top_i x < b_i , i = [1,m]\}$$. 
+	with domain $$\{x \mid a^\top_i x < b_i , i = [1,m]\}$$. 
 	
 	First introduce new variables $$y_i$$ and equality constraints $$y_i = b_i − a^\top_i x$$. (The solution of this problem is called the analytic center of the linear inequalities $$a^\top_i x \leq b_i ,i = [1,m]$$.  Analytic centers have geometric applications, and play an important role in barrier methods.) 
 
