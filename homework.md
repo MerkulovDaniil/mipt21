@@ -283,7 +283,7 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 	
 	$$
 	\begin{split}
-	& c^\top x\to \min\limits_{x \in \mathbb{R} }\\
+	& c^\top x\to \min\limits_{x \in \mathbb{R}^n }\\
 	\text{s.t. } & f(x) \leq 0
 	\end{split}
 	$$
