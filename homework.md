@@ -199,7 +199,7 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 	\end{split}
 	$$
 
-	where $$A \in \mathbb{S}^n_{++}, c \neq 0$$. What is the solution if the problem is not convex $$(A \notin \mathbb{S}^n_{++})$$ (Hint: consider eigendecomposition of the matrix: $$A = Q \mathbf{diag}(\lambda)Q^\top = \sum\limits_{i=1}^n \lambda_i q_i q_i^\top$$) and different cases of $$\lambda >0, \lambda=0, \lambda<0$$?
+	where $$A \in \mathbb{S}^n_{++}, c \neq 0$$. What is the solution if the problem is not convex $$(A \notin \mathbb{S}^n_{++})$$ (Hint: consider eigendecomposition of the matrix: $$A = Q \mathbf{diag}(\lambda)Q^\top = \sum\limits_{i=1}^n \lambda_i q_i q_i^\top$$ and different cases of $$\lambda >0, \lambda=0, \lambda<0$$)?
 
 1. Give an explicit solution of the following QP.
 	
