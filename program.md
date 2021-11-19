@@ -74,7 +74,7 @@ nav_order: 2
 
 [📄 Материалы](/presentations/12.pdf). [📝 Записи](/notes/12.pdf). [📼 Видео]().
 
-Практика: работа с библиотекой CVXPY [🐍 code](https://colab.research.google.com/github/MerkulovDaniil/mipt21/blob/main/notebooks/CVXPY_exercises.ipynb){: .btn}. Практика: оптимизация финансового портфеля на примере реальных данных фондового рынка.  [🐍 code](https://colab.research.google.com/github/MerkulovDaniil/sber219/blob/main/notebooks/Portfolio_optimization.ipynb){: .btn}
+Практика: работа с библиотекой CVXPY [🐍 code](https://colab.research.google.com/github/MerkulovDaniil/mipt21/blob/main/notebooks/CVXPY_exercises.ipynb){: .btn}. Практика: оптимизация финансового портфеля на примере реальных данных фондового рынка.  [🐍 code](https://colab.research.google.com/github/MerkulovDaniil/mipt21/blob/main/notebooks/Portfolio_optimization.ipynb){: .btn}
 
 ## Занятие 13.
 
