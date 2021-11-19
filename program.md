@@ -66,15 +66,15 @@ nav_order: 2
 
 ## Занятие 11.
 
-[📄 Материалы](/presentations/10.pdf). [📝 Записи](/notes/11.pdf). [📼 Видео]().
+[📄 Материалы](/presentations/10.pdf). [📝 Записи](/notes/11.pdf). [📼 Видео](https://youtu.be/-gYb_3CPgI0).
 
 Задача линейного программирования 2. Симплекс метод. Приложения линейного программирования.
 
 ## Занятие 12.
 
-[📄 Материалы](/presentations/12.pdf). [📝 Записи](/notes/12.pdf). [📼 Видео]().
+[📄 Материалы](/presentations/12.pdf). 📝 Записи. [📼 Видео](https://youtu.be/ueflq-3dxOE).
 
-Практика: работа с библиотекой CVXPY [🐍 code](https://colab.research.google.com/github/MerkulovDaniil/mipt21/blob/main/notebooks/CVXPY_exercises.ipynb){: .btn}. Практика: оптимизация финансового портфеля на примере реальных данных фондового рынка.  [🐍 code](https://colab.research.google.com/github/MerkulovDaniil/sber219/blob/main/notebooks/Portfolio_optimization.ipynb){: .btn}
+Практика: работа с библиотекой CVXPY [🐍 code](https://colab.research.google.com/github/MerkulovDaniil/mipt21/blob/main/notebooks/CVXPY_exercises.ipynb){: .btn}. Практика: оптимизация финансового портфеля на примере реальных данных фондового рынка.  [🐍 code](https://colab.research.google.com/github/MerkulovDaniil/mipt21/blob/main/notebooks/Portfolio_optimization.ipynb){: .btn}
 
 ## Занятие 13.
 
