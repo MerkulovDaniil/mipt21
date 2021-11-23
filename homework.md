@@ -238,7 +238,7 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 	
 	$$
 	\begin{split}
-	& \mathbf{tr \;}X - \log\text{det }X \to \min\limits_{x \in \mathbb{S}^n_{++} }\\
+	& \mathbf{tr \;}X - \log\text{det }X \to \min\limits_{X \in \mathbb{S}^n_{++} }\\
 	\text{s.t. } & Xs = y,
 	\end{split}
 	$$
