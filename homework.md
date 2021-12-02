@@ -12,7 +12,7 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 ## Matrix calculus
 
 1. Find $$\nabla f(x)$$, if $$f(x) = \dfrac{1}{2} \|Ax - b\|_2^2 , x \in \mathbb{R}^p$$.
-1. Find $$\nabla f(X)$$, if $$f(X) = \langle x, x\rangle^{\langle x, x\rangle}, x \in \mathbb{R}^n\setminus\{0\}$$.
+1. Find $$\nabla f(x)$$, if $$f(x) = \langle x, x\rangle^{\langle x, x\rangle}, x \in \mathbb{R}^n\setminus\{0\}$$.
 1. Calculate the Frobenious norm derivative: $$\dfrac{\partial}{\partial X}\|X\|_F^2$$
 1. Calculate the first and the second derivative of the following function $$f : S \to \mathbb{R}$$
 
