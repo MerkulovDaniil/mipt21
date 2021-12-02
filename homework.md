@@ -101,7 +101,7 @@ Hint: For $$0 \leq \theta \leq 1$$ it is valid, that $$a^\theta b^{1 - \theta} \
 	* \$$\sum\limits_{i=1}^n p_i \log p_i$$
 	* \$$\mathbb{V}x = \mathbb{E}(x - \mathbb{E}x)^2$$
 	* \$$\mathbf{quartile}(x) = {\operatorname{inf}}\left\{ \beta \mid \mathbb{P}\{x \le \beta\} \ge 0.25 \right\}$$ 
-1.  Is the function returning the arithmetic mean of vector coordinates is a convex one: : $$a(x) = \frac{1}{n}\sum\limits_{i=1}^n x_i$$, what about geometric mean: $$g(x) = \prod\limits_{i=1}^n \left(x_i \right)^{1/n}$$?
+1.  Is the function returning the arithmetic mean of vector coordinates is a convex one: $$a(x) = \frac{1}{n}\sum\limits_{i=1}^n x_i$$, what about geometric mean: $$g(x) = \prod\limits_{i=1}^n \left(x_i \right)^{1/n}$$?
 1. Is $$f(x) = -x \ln x - (1-x) \ln (1-x)$$ convex?
 1. Let $$f: \mathbb{R}^n \to \mathbb{R}$$ be the following function:
     $$
