@@ -463,7 +463,7 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 	\rho_i = \frac{\partial \log R(x)}{\partial \log x_i} = \frac{\partial R(x)}{R(x)} \frac{x_i}{\partial x_i}, \quad i=1, \ldots, n.
 	$$
 
-	Why is the logarithm here?! Because it reflects fraction of relative change x (say, per 1%). Take a look at [easticity definition at wiki](https://en.wikipedia.org/wiki/Elasticity_(economics)). Thus $$\rho_i$$ gives the fractional increase in risk per fractional increase
+	Why is the logarithm here?! Because it reflects fraction of relative change $$x$$ (say, per 1%). Take a look at [easticity definition at wiki](https://en.wikipedia.org/wiki/Elasticity_(economics)). Thus $$\rho_i$$ gives the fractional increase in risk per fractional increase
 	in investment $$i$$. We can express the risk contributions as
 
 	$$
