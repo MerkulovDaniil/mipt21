@@ -70,7 +70,7 @@ print(f'Analytical and autograd implementations of the hessians are close: {np.a
 1. Show, that $$ \mathbf{conv}\{xx^\top: x \in \mathbb{R}^n, \|x\| = 1\} = \{A \in \mathbb{S}^n_+: \text{tr}(A) = 1\}$$.
 1. Show that the hyperbolic set of $$ \{x \in \mathbb{R}^n_+ | \prod\limits_{i=1}^n x_i \geq 1 \} $$ is convex. 
 Hint: For $$0 \leq \theta \leq 1$$ it is valid, that $$a^\theta b^{1 - \theta} \leq \theta a + (1-\theta)b$$ with non-negative $$a,b$$.
-1. Prove, that the set $S \subseteq \mathbb{R}^n$ is convex if and only if $(\alpha + \beta)S = \alpha S + \beta S$ for all non-negative $\alpha$ and $\beta$
+1. Prove, that the set $S \subseteq \mathbb{R}^n$ is convex if and only if $(\alpha + \beta)S = \alpha S + \beta S$ for all non-negative $\alpha$ and $\beta$.
 1. Let $$x \in \mathbb{R}$$ is a random variable with a given probability distribution of $$\mathbb{P}(x = a_i) = p_i$$, where $$i = 1, \ldots, n$$, and $$a_1 < \ldots < a_n$$. It is said that the probability vector of outcomes of $$p \in \mathbb{R}^n$$ belongs to the probabilistic simplex, i.e. $$P = \{ p \mid \mathbf{1}^Tp = 1, p \succeq 0 \} = \{ p \mid p_1 + \ldots + p_n = 1, p_i \ge 0 \}$$. 
     Determine if the following sets of $$p$$ are convex:
     
@@ -88,7 +88,7 @@ Hint: For $$0 \leq \theta \leq 1$$ it is valid, that $$a^\theta b^{1 - \theta} \
 	D(p,q) = \sum\limits_{i=1}^n (p_i \log(p_i/q_i) - p_i + q_i)
 	$$
 	
-	Prove, that $$D(p,q) \geq 0 \forall p,q \in \mathbb{R}^n_{++}$$ и $$D(p,q) = 0 \leftrightarrow p = q$$  
+	Prove, that $$D(p,q) \geq 0 \; \forall p,q \in \mathbb{R}^n_{++}$$ и $$D(p,q) = 0 \leftrightarrow p = q$$  
 	
 	Hint: 
 	$$
@@ -275,7 +275,7 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 	\nabla f_0(x^*)^\top (x - x^*) \geq 0
 	$$
 
-	for all feasible $$x$$. In other words the KKT conditions imply the simple optimality criterion or $$\nabla f_0(x^*)$$ defines a supporting hyperplane to the feasible set at $$x^*$$
+	for all feasible $$x$$. In other words the KKT conditions imply the simple optimality criterion or $$\nabla f_0(x^*)$$ defines a supporting hyperplane to the feasible set at $$x^*$$.
 
 ## Duality
 
