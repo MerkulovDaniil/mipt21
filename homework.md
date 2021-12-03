@@ -295,7 +295,7 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 	$$
 	\begin{split}
 	& \ln \text{det} X^{-1} \to \min\limits_{X \in \mathbb{S}^{n}_{++} }\\
-	\text{s.t. } & a_i^\top X a_i \leq 1 , i = 1, \ldots, m
+	\text{s.t. } & a_i^\top X a_i \leq 1 , i = 1, \ldots, n
 	\end{split}
 	$$
 
