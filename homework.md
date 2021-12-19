@@ -12,7 +12,7 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 ## Matrix calculus
 
 1. Find $$\nabla f(x)$$, if $$f(x) = \dfrac{1}{2} \|Ax - b\|_2^2 , x \in \mathbb{R}^p$$.
-1. Find $$\nabla f(X)$$, if $$f(X) = \langle x, x\rangle^{\langle x, x\rangle}, x \in \mathbb{R}^n\setminus\{0\}$$.
+1. Find $$\nabla f(x)$$, if $$f(x) = \langle x, x\rangle^{\langle x, x\rangle}, x \in \mathbb{R}^n\setminus\{0\}$$.
 1. Calculate the Frobenious norm derivative: $$\dfrac{\partial}{\partial X}\|X\|_F^2$$
 1. Calculate the first and the second derivative of the following function $$f : S \to \mathbb{R}$$
 
@@ -70,7 +70,7 @@ print(f'Analytical and autograd implementations of the hessians are close: {np.a
 1. Show, that $$ \mathbf{conv}\{xx^\top: x \in \mathbb{R}^n, \|x\| = 1\} = \{A \in \mathbb{S}^n_+: \text{tr}(A) = 1\}$$.
 1. Show that the hyperbolic set of $$ \{x \in \mathbb{R}^n_+ | \prod\limits_{i=1}^n x_i \geq 1 \} $$ is convex. 
 Hint: For $$0 \leq \theta \leq 1$$ it is valid, that $$a^\theta b^{1 - \theta} \leq \theta a + (1-\theta)b$$ with non-negative $$a,b$$.
-1. Prove, that the set $S \subseteq \mathbb{R}^n$ is convex if and only if $(\alpha + \beta)S = \alpha S + \beta S$ for all non-negative $\alpha$ and $\beta$
+1. Prove, that the set $S \subseteq \mathbb{R}^n$ is convex if and only if $(\alpha + \beta)S = \alpha S + \beta S$ for all non-negative $\alpha$ and $\beta$.
 1. Let $$x \in \mathbb{R}$$ is a random variable with a given probability distribution of $$\mathbb{P}(x = a_i) = p_i$$, where $$i = 1, \ldots, n$$, and $$a_1 < \ldots < a_n$$. It is said that the probability vector of outcomes of $$p \in \mathbb{R}^n$$ belongs to the probabilistic simplex, i.e. $$P = \{ p \mid \mathbf{1}^Tp = 1, p \succeq 0 \} = \{ p \mid p_1 + \ldots + p_n = 1, p_i \ge 0 \}$$. 
     Determine if the following sets of $$p$$ are convex:
     
@@ -88,7 +88,7 @@ Hint: For $$0 \leq \theta \leq 1$$ it is valid, that $$a^\theta b^{1 - \theta} \
 	D(p,q) = \sum\limits_{i=1}^n (p_i \log(p_i/q_i) - p_i + q_i)
 	$$
 	
-	Prove, that $$D(p,q) \geq 0 \forall p,q \in \mathbb{R}^n_{++}$$ и $$D(p,q) = 0 \leftrightarrow p = q$$  
+	Prove, that $$D(p,q) \geq 0 \; \forall p,q \in \mathbb{R}^n_{++}$$ и $$D(p,q) = 0 \leftrightarrow p = q$$  
 	
 	Hint: 
 	$$
@@ -101,7 +101,7 @@ Hint: For $$0 \leq \theta \leq 1$$ it is valid, that $$a^\theta b^{1 - \theta} \
 	* \$$\sum\limits_{i=1}^n p_i \log p_i$$
 	* \$$\mathbb{V}x = \mathbb{E}(x - \mathbb{E}x)^2$$
 	* \$$\mathbf{quartile}(x) = {\operatorname{inf}}\left\{ \beta \mid \mathbb{P}\{x \le \beta\} \ge 0.25 \right\}$$ 
-1.  Is the function returning the arithmetic mean of vector coordinates is a convex one: : $$a(x) = \frac{1}{n}\sum\limits_{i=1}^n x_i$$, what about geometric mean: $$g(x) = \prod\limits_{i=1}^n \left(x_i \right)^{1/n}$$?
+1.  Is the function returning the arithmetic mean of vector coordinates is a convex one: $$a(x) = \frac{1}{n}\sum\limits_{i=1}^n x_i$$, what about geometric mean: $$g(x) = \prod\limits_{i=1}^n \left(x_i \right)^{1/n}$$?
 1. Is $$f(x) = -x \ln x - (1-x) \ln (1-x)$$ convex?
 1. Let $$f: \mathbb{R}^n \to \mathbb{R}$$ be the following function:
     $$
@@ -275,7 +275,7 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 	\nabla f_0(x^*)^\top (x - x^*) \geq 0
 	$$
 
-	for all feasible $$x$$. In other words the KKT conditions imply the simple optimality criterion or $$\nabla f_0(x^*)$$ defines a supporting hyperplane to the feasible set at $$x^*$$
+	for all feasible $$x$$. In other words the KKT conditions imply the simple optimality criterion or $$\nabla f_0(x^*)$$ defines a supporting hyperplane to the feasible set at $$x^*$$.
 
 ## Duality
 
@@ -463,7 +463,7 @@ The file should be sent in the `.pdf` format created via $$\LaTeX$$ or [typora](
 	\rho_i = \frac{\partial \log R(x)}{\partial \log x_i} = \frac{\partial R(x)}{R(x)} \frac{x_i}{\partial x_i}, \quad i=1, \ldots, n.
 	$$
 
-	Why is the logarithm here?! Because it reflects fraction of relative change x (say, per 1%). Take a look at [easticity definition at wiki](https://en.wikipedia.org/wiki/Elasticity_(economics)). Thus $$\rho_i$$ gives the fractional increase in risk per fractional increase
+	Why is the logarithm here?! Because it reflects fraction of relative change $$x$$ (say, per 1%). Take a look at [easticity definition at wiki](https://en.wikipedia.org/wiki/Elasticity_(economics)). Thus $$\rho_i$$ gives the fractional increase in risk per fractional increase
 	in investment $$i$$. We can express the risk contributions as
 
 	$$
