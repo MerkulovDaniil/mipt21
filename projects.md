@@ -13,7 +13,7 @@ nav_order: 4
 
 * [Лучшие проекты по оптимизации 2018](https://merkulov.top/Teaching/Optimization_methods/Optimization_methods____/%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BF%D0%BE_%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8_2018/)
 * [Лучшие проекты по оптимизации 2019](https://merkulov.top/Teaching/Optimization_methods/Optimization_methods__/%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BF%D0%BE_%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8_2019/)
-* [Лучшие проекты по оптимизации 2018](https://merkulov.top/Teaching/Optimization_methods/Optimization_methods_/%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BF%D0%BE_%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8_2020/)
+* [Лучшие проекты по оптимизации 2020](https://merkulov.top/Teaching/Optimization_methods/Optimization_methods_/%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_%D0%BF%D0%BE_%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8_2020/)
 
 Критерий оценивания: бинарный (успели согласовать тему - 5 баллов, не успели - 0 баллов).
 
