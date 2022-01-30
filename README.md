@@ -11,6 +11,7 @@ nav_order: 1
 
 * [🚀 Программа](/program)
 * [💀 Домашка](/homework)
+* [🏛 Проекты](/projects)
 * [📧 Чат](https://t.me/optmipt22)
 * [👩‍🏫 Google classroom](https://classroom.google.com/u/1/w/MTU4MjAzMjAxMTQ0/t/all)
 * [👨‍💻 Github](https://github.com/MerkulovDaniil/mipt21)
