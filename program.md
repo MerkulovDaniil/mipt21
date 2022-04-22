@@ -102,6 +102,6 @@ nav_order: 2
 Введение в метод Ньютона.
 
 ### Занятия 20-21.
-[📄 Материалы](/presentations/20.pdf). [📝 Записи](/notes/20.pdf). [📼 Видео]().
+[📄 Материалы](/presentations/20.pdf). [📝 Записи](/notes/20.pdf). [📼 Видео 1](https://youtu.be/kc4uBFf3Xdc). [📼 Видео 2](https://youtu.be/ARmRHI7_ZDI).
 
 Метод сопряженных градиентов.
